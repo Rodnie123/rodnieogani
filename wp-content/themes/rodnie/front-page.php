@@ -1,214 +1,7 @@
 
-<!DOCTYPE html>
-<html lang="zxx">
+<?php get_header() ?>
+<?php $hero = get_field('hero'); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Ogani Template">
-    <meta name="keywords" content="Ogani, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ogani | Template</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-
-    <title>My blog &#8211; Just another WordPress site</title>
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="My blog &raquo; Feed" href="https://rodnie123.github.io/rodnieogani/feed/" />
-<link rel="alternate" type="application/rss+xml" title="My blog &raquo; Comments Feed" href="https://rodnie123.github.io/rodnieogani/comments/feed/" />
-		<script>
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/rodnie123.github.io\/rodnieogani\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
-			/*! This file is auto-generated */
-			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style>
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://rodnie123.github.io/rodnieogani/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1' media='all' />
-<link rel='stylesheet' id='scratchtheme-style-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/style.css?ver=1.0.0' media='all' />
-<link rel='stylesheet' id='font-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/css/font-awesome.min.css?ver=1' media='all' />
-<link rel='stylesheet' id='bootstrap-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/css/bootstrap.min.css?ver=1' media='all' />
-<link rel='stylesheet' id='icons-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/css/elegant-icons.css?ver=1' media='all' />
-<link rel='stylesheet' id='select-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/css/nice-select.css?ver=1' media='all' />
-<link rel='stylesheet' id='jquery-ui-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/css/jquery-ui.min.css?ver=1' media='all' />
-<link rel='stylesheet' id='owl-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/css/owl.carousel.min.css?ver=1' media='all' />
-<link rel='stylesheet' id='slicknav-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/css/slicknav.min.css?ver=1' media='all' />
-<link rel='stylesheet' id='custom-css'  href='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/custom.css?ver=1' media='all' />
-<link rel='https://api.w.org/' href='https://rodnie123.github.io/rodnieogani/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://rodnie123.github.io/rodnieogani/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://rodnie123.github.io/rodnieogani/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.4.1" />
-<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-    <!-- Css Styles -->
-<!--     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/custom.css" type="text/css"> -->
-</head>
-
-<body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>	
-
-    <!-- Humberger Begin -->
-    <div class="humberger__menu__overlay"></div>
-    <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie /img/logo.png" alt=""></a>
-        </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-            </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
-        </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/language.png" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
-            </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./shop-grid.html">Shop</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Shop Details</a></li>
-                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                        <li><a href="./checkout.html">Check Out</a></li>
-                        <li><a href="./blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="mobile-menu-wrap"></div>
-        <div class="header__top__right__social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        </div>
-        <div class="humberger__menu__contact">
-            <ul>
-                <li><i class="fa fa-envelope"></i> rodnie.lecera@gmail.com</li>
-                <li>Free Shipping for all Order of $99</li>
-            </ul>
-        </div>
-    </div>
-    <!-- Humberger End -->
-
-    <!-- Header Section Begin -->
-    <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Free Shipping for all Order of $99</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__right">
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
-                            <div class="header__top__right__language">
-                                <img src=" https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/language.png" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
-                            </div>
-                            <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <nav class="header__menu">
-                       <!--  <ul id="main-menu">
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="./shop-grid.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
-                        </ul> -->
-
-
-                        <ul id="main-menu"><li class="page_item page-item-2"><a href="https://rodnie123.github.io/rodnieogani/sample-page/">Sample Page</a></li>
-</ul>
-                    </nav>
-                </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="humberger__open">
-                <i class="fa fa-bars"></i>
-            </div>
-        </div>
-    </header>
 <!-- Hero Section Begin -->
 
 
@@ -258,12 +51,15 @@ img.emoji {
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/hero/banner.jpg">
+                    <div class="hero__item set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/hero/banner.jpg">
                         <div class="hero__text">
                             <span>FRUIT FRESH</span>
-                            <h2></h2>
-                            <p> </p>
-                                                    </div>
+                            <h2><?php echo $hero['main_title'] ?></h2>
+                            <p><?php echo  $hero['small_title'] ?> </p>
+                            <?php if ($hero['link']): ?>
+                            <a href="<?php echo $hero['link'] ?>" class="primary-btn"><?php echo  $hero['link_text'] ?></a>
+                           <?php endif; ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -277,27 +73,27 @@ img.emoji {
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/categories/cat-1.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/categories/cat-1.jpg">
                             <h5><a href="#">Fresh Fruit</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/categories/cat-2.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/categories/cat-2.jpg">
                             <h5><a href="#">Dried Fruit</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/categories/cat-3.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/categories/cat-3.jpg">
                             <h5><a href="#">Vegetables</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/categories/cat-4.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/categories/cat-4.jpg">
                             <h5><a href="#">drink fruits</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/categories/cat-5.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/categories/cat-5.jpg">
                             <h5><a href="#">drink fruits</a></h5>
                         </div>
                     </div>
@@ -329,7 +125,7 @@ img.emoji {
             <div class="row featured__filter">
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-1.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-1.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -344,7 +140,7 @@ img.emoji {
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-2.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-2.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -359,7 +155,7 @@ img.emoji {
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-3.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-3.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -374,7 +170,7 @@ img.emoji {
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-4.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-4.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -389,7 +185,7 @@ img.emoji {
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-5.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-5.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -404,7 +200,7 @@ img.emoji {
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-6.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-6.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -419,7 +215,7 @@ img.emoji {
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-7.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-7.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -434,7 +230,7 @@ img.emoji {
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/featured/feature-8.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php bloginfo('template_directory') ;?>/img/featured/feature-8.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -458,12 +254,12 @@ img.emoji {
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/banner/banner-1.jpg" alt="">
+                        <img src="<?php bloginfo('template_directory') ;?>/img/banner/banner-1.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/banner/banner-2.jpg" alt="">
+                        <img src="<?php bloginfo('template_directory') ;?>/img/banner/banner-2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -482,7 +278,7 @@ img.emoji {
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -491,7 +287,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -500,7 +296,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -511,7 +307,7 @@ img.emoji {
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -520,7 +316,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -529,7 +325,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -547,7 +343,7 @@ img.emoji {
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -556,7 +352,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -565,7 +361,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -576,7 +372,7 @@ img.emoji {
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -585,7 +381,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -594,7 +390,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -612,7 +408,7 @@ img.emoji {
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -621,7 +417,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -630,7 +426,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -641,7 +437,7 @@ img.emoji {
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -650,7 +446,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -659,7 +455,7 @@ img.emoji {
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php bloginfo('template_directory') ;?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -689,7 +485,7 @@ img.emoji {
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/blog/blog-1.jpg" alt="">
+                            <img src="<?php bloginfo('template_directory') ;?>/img/blog/blog-1.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -704,7 +500,7 @@ img.emoji {
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/blog/blog-2.jpg" alt="">
+                            <img src="<?php bloginfo('template_directory') ;?>/img/blog/blog-2.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -719,7 +515,7 @@ img.emoji {
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/img/blog/blog-3.jpg" alt="">
+                            <img src="<?php bloginfo('template_directory') ;?>/img/blog/blog-3.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -736,94 +532,4 @@ img.emoji {
     </section>
     <!-- Blog Section End -->
 
-       <footer class="footer spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a  target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
-
-    <!-- Js Plugins -->
-    <!-- <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script> -->
-
-    <script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/navigation.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/jquery-3.3.1.min.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/bootstrap.min.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/jquery.nice-select.min.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/jquery-ui.min.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/jquery.slicknav.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/mixitup.min.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/owl.carousel.min.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-content/themes/rodnie/js/main.js?ver=1.0.0'></script>
-<script src='https://rodnie123.github.io/rodnieogani/wp-includes/js/wp-embed.min.js?ver=5.4.1'></script>
-
-</body>
-
-</html>
+    <?php get_footer() ?>
